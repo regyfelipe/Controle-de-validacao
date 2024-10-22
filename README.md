@@ -9,7 +9,24 @@ Gerenciamento de validação de produtos de Lojas em Flutter
 * Integração com API: O projeto se comunica com um backend em Node.js, garantindo que todas as operações de CRUD sejam realizadas de forma eficiente.
 
 
-# BANCO DE DADOS MYSQL
+# CVP - Sistema de Gerenciamento de Validação de Produtos em Flutter
+
+O **CVP** é uma aplicação desenvolvida em Flutter que permite o gerenciamento eficiente da validação de produtos em lojas. Com uma interface intuitiva e funcionalidades robustas, o sistema facilita a administração de lojas e produtos.
+
+## Principais Funcionalidades
+
+- **Cadastro de Lojas**: Adicione novas lojas facilmente por meio de um formulário amigável.
+- **Edição e Exclusão**: Edite ou exclua lojas com um simples toque, garantindo flexibilidade na gestão.
+- **Listagem Dinâmica**: Navegue rapidamente por uma lista interativa de lojas.
+- **Integração com API**: O projeto se comunica com um backend em Node.js, permitindo que todas as operações de CRUD sejam realizadas de maneira eficiente.
+
+## Estrutura do Banco de Dados
+
+O sistema utiliza um banco de dados MySQL com a seguinte estrutura:
+
+### Criar Banco de Dados
+
+```sql
 -- Criar Banco de Dados
 CREATE DATABASE sistema_validacao_produtos;
 USE sistema_validacao_produtos;
@@ -68,6 +85,4 @@ select * from lojas;
 select * from produtos;
 
 
-
-DELETE FROM produtos
-WHERE id BETWEEN 1 AND 2;
+```
