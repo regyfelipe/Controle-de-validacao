@@ -1,14 +1,3 @@
-# cvp
-
-Gerenciamento de validação de produtos de Lojas em Flutter 
-## Principais Funcionalidades:
-
-* Cadastro de Lojas: Os usuários podem adicionar novas lojas facilmente através de um formulário intuitivo.
-* Edição e Exclusão: Com um simples toque, é possível editar ou excluir lojas, garantindo flexibilidade no gerenciamento.
-* Listagem Dinâmica: As lojas são exibidas em uma lista interativa, permitindo a navegação rápida e fácil.
-* Integração com API: O projeto se comunica com um backend em Node.js, garantindo que todas as operações de CRUD sejam realizadas de forma eficiente.
-
-
 # CVP - Sistema de Gerenciamento de Validação de Produtos em Flutter
 
 O **CVP** é uma aplicação desenvolvida em Flutter que permite o gerenciamento eficiente da validação de produtos em lojas. Com uma interface intuitiva e funcionalidades robustas, o sistema facilita a administração de lojas e produtos.
